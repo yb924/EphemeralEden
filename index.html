@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  <div class="center">
+    <div class="map-container" >
+      <a href="https://yb924.github.io/EphemeralEden/main.html"><img src="imgs/landing.png" alt="" id="bg" ></a>
+
+      <p id="title">Ephemeral</p>
+      <p id="title2">Eden</p>
+
+
+    </div>
+
+  </div>
+
+
+
+  <script type="text/javascript">
+
+  </script>
+
+
+
+  <style media="screen">
+
+  body{
+    margin:0px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+    body{
+      font-size: 90px;
+    }
+
+    #title{
+      color: white;
+      text-shadow: 3px 3px 20px white;
+      position: absolute;
+      top: 30%;
+      left: 40%;
+    }
+
+    #title2{
+      color: white;
+      text-shadow: 3px 3px 20px white;
+      position: absolute;
+      top: 40%;
+      left: 40%;
+    }
+  }
+
+  @media only screen and (min-width: 1001px) {
+    body{
+      font-size: 110px;
+    }
+
+    p{
+      text-shadow: 100px 100px 50px white;
+    }
+
+    #title{
+      color: white;
+      position: absolute;
+      top: 25%;
+      left: 25%;
+    }
+
+    #title2{
+      color: white;
+      position: absolute;
+      top: 35%;
+      left: 58%;
+
+    }
+  }
+
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(fonts/dream_orphans.ttf);
+    /* font-weight: bold; */
+  }
+
+
+  *{
+    font-family: myFirstFont;
+  }
+
+
+  #bg{
+    width:1920px;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+
+    justify-content:center;
+    /* transform: translate(-50%,0%); */
+    height: 100vh;
+    /* overflow-x:visible; */
+    overflow-x:hidden;
+    overflow-y: hidden;
+    white-space: initial;
+  }
+
+  .map-container {
+    position: relative;
+    /* justify-content:center; */
+    /* overflow: auto; */
+    /* white-space: nowrap; */
+  }
+
+
+
+  </style>
+
+</body>
+</html>
